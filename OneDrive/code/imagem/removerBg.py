@@ -2,7 +2,7 @@
 from rembg import remove
 from PIL import Image
 
-def removerFundo(caminho_imagem): #caminho da imagem
+def removerFundo(caminho_imagem): #caminho da imagem.
 
     img = Image.open(caminho_imagem)
     imgRemove = remove(img)
